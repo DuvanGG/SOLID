@@ -1,5 +1,7 @@
 package com.dev.taskApp.service;
 
-public class NotificationService {
+public interface NotificationService {
+
+	void sendNotification(String message);
 
 }
